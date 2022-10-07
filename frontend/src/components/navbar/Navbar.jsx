@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav className="app_navbar">
             <div className="app_navbar-logo">
-            aergul-
+            aergul
             </div>
             <ul className="app_navbar-link">
                 {["home", "about", "work", "skills", "contact"].map((item) => (

@@ -1,0 +1,54 @@
+.app {
+  background-color: var(--primary-color);
+}
+
+.app_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_wrapper {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  padding: 4rem 2rem;
+  @media screen and (max-width: 450px) {
+    padding: 4rem 1rem 2rem;
+  }
+}
+
+.p-text {
+  font-size: 1rem;
+  text-align: left;
+  color: gray;
+  line-height: 1.5;
+}
+
+.head-text {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  color: black;
+  text-transform: capitalize;
+}
+
+.copyright {
+  width: 100%;
+  padding: 2rem 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  p{
+   color: var(--secondary-color);
+  }
+}
+
+.app_navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
