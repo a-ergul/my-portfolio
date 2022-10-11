@@ -1,4 +1,5 @@
 export { default as Header} from './header/Header'
+export { default as About} from './about/About'
 export { default as Navbar} from './navbar/Navbar'
 export { default as NavigationDots} from './header/NavigationDots'
 export { default as SocialMedia } from './header/SocialMedia'
