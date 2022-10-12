@@ -8,7 +8,7 @@ function Navbar() {
             aergul
             </div>
             <ul className="app_navbar-link">
-                {["home", "about", "work", "skills", "contact"].map((item) => (
+                {["home", "about", "skills"].map((item) => (
                     <li className="app_flex p-text" key={`link-${item}`}>
                         <div />
                         <a href={`#${item}`}>{item}</a>
